@@ -8,4 +8,4 @@ ggplot(mammals, aes(x = vore, y = sleep_total, fill = vore)) +
 
 #Absolute violin plot: how value is distributted and percent of each type of value in total dataset
 ggplot(mammals2, aes(x = vore, y = sleep_total, fill = vore)) +
-  geom_violin(aes(weight = TRUE), col = NA)
+  geom_violin(aes(weight = n), col = NA)
